@@ -1,0 +1,199 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.logocska{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.fullscreen-bg{
+    position:fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
+}
+.fejlec{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 18px;
+    text-align: center;
+}
+.fejlec a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: antiquewhite;
+    font-weight:bold ;
+}
+.vkozepre{
+    position: absolute;
+    left: 50%;
+    transform:translate(-50%, 0%);
+
+
+}
+.vfkozepre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform:translate(-50%, -50%);
+}
+.cim{
+    font-size: 80px;
+
+}
+.gombdoboz{
+    margin-top: 30px;
+    margin-left:auto ;
+    margin-right: auto;
+    text-align: center;
+}
+
+.gomb{
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    background:red;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #000;
+    display:inline-block;
+    color:cornsilk;
+}
+
+.gomb:hover{
+    filter: invert(100%);
+    box-shadow: none;
+
+}
+
+.lablec_vkozepre{
+    position:absolute;
+    bottom:0;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.fullscreen-bg-video{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:auto;
+    height:auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+.bevezetes01{
+    color: black;
+    text-align: center;
+    font-size: 450%;
+}
+.dumarizsa{
+    color: white;
+    text-align: center;
+    font-size: 180%;
+}
+.csapás{
+    color: black;
+    text-align: center;
+}
+#teknöc{
+    text-align: center;
+}
+.meret{
+    width: 250px;
+    height: 150px;
+    border: 6px ridge mediumblue;
+}
+.bábukép{
+    float:right;
+    width: 300px;
+    height: 400px;
+    border: 6px ridge mediumblue;
+}
+#rugóerő{
+    float:left;
+    width: 300px;
+    height: 400px;
+    border: 6px ridge mediumblue;
+}
+#kontener{
+    width: 1000px;
+            margin: auto;
+            border: 8px solid mediumblue;
+            border-top: 10px solid mediumblue;
+            background-color: grey;
+}
+
+.surlodas{
+    float:left;
+    width: 450px;
+    height: 350px;
+    border: 6px ridge mediumblue;
+}
+.gumi{
+    float:right;
+    width: 520px;
+    height: 350px;
+    border: 6px ridge mediumblue;
+}
+.meret05{
+    width: 350px;
+    height: 350px;
+    border: 6px ridge mediumblue;
+}
+.meret11{
+    width: 450px;
+    height: 150px;
+    border: 6px ridge mediumblue;
+}
+.fontos{
+    color:yellow
+}
+.meret06{
+    float:right;
+    width: 500px;
+    height: 350px;
+    border: 6px ridge mediumblue;
+}
+.meret07{
+    float:right;
+    width: 300px;
+    height: 350px;
+    border: 6px ridge mediumblue;
+}
+.meret010{
+    float:left;
+    width: 450px;
+    height: 350px;
+    border: 6px ridge mediumblue;
+}
+.meret12{
+    width: 650px;
+    height: 450px;
+    border: 6px ridge mediumblue;
+}
+.meret666{
+    float:right;
+    width: 450px;
+    height: 400px;
+    border: 6px ridge mediumblue;
+}
